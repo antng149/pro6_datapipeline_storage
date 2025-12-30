@@ -37,18 +37,15 @@ Hệ thống quản lý 3 nguồn dữ liệu đa định dạng, tổng hợp t
 ## 🔍 Data Profiling Results
 
 Quá trình "khám sức khỏe" dữ liệu (Profiling) xác nhận:
-* **Data Volume**: Pipeline xử lý thành công **41,432,460** bản ghi sự kiện và **18,000** bản ghi sản phẩm.
 * **Integrity**: Tỷ lệ khớp IP giữa `summary_final` và `ip_locations` đạt mức tối ưu, hỗ trợ phân tích bản đồ nhiệt (Heatmap) chính xác.
 * **Optimization**: Bảng lớn được cấu hình **Partitioning** theo thời gian giúp giảm 90% chi phí truy vấn.
-
-Metric,Giá trị thực tế (từ Output của bạn)
-Tổng số dòng Summary,"41,432,460"
-Tổng số dòng IP Locations,"3,239,628"
-Tổng số dòng Products,"35,296"
-Số lượng IP thiếu,0 
-Tỷ lệ khớp IP (Match Rate),100.0% 
-Số lượng Email thiếu,"397"
-Số loại tiền tệ,85
+* **Tổng số dòng Summary,"41,432,460"
+* **Tổng số dòng IP Locations,"3,239,628"
+* **Tổng số dòng Products,"35,296"
+* **Số lượng IP thiếu,0 
+* **Tỷ lệ khớp IP (Match Rate),100.0% 
+* **Số lượng Email thiếu,"397"
+* **Số loại tiền tệ,85
 
 ---
 
